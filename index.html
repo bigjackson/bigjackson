@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width">
   <title>bigjackson</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/mechanics/mec-5/mec411.ani), url(https://cur.cursors-4u.net/mechanics/mec-5/mec411.png), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2011/03/06/dancing-robot-6.html" target="_blank" title="Dancing Robot"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Dancing Robot" style="position:absolute; top: 0px; right: 0px;" /></a>
 </head>
 
 <body>
@@ -22,7 +21,6 @@
   <p1>thank you ayunami2000 for this feature</p1>
   <p>loading repositories...</p>
   <script type="text/javascript">
-    var githubelem=document.querySelector(".side p");
     (async ()=>{
       var outhtml="",json=await (await fetch("https://api.github.com/users/bigjackson/repos?per_page=100&sort=updated")).json();
       for(var i=0;i<json.length;i++)outhtml+='<a href="'+json[i].html_url+'" target="_blank"><h3>'+json[i].name+'</h3></a>';
